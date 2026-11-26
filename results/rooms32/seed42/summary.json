@@ -1,0 +1,47 @@
+{
+  "rooms": 32,
+  "config": {
+    "population": 60,
+    "generations": 400,
+    "elite": 4,
+    "tournament": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.9,
+    "seed": 42
+  },
+  "data_seed": 2026,
+  "elapsed_seconds": 8.7047,
+  "validation": {
+    "scheduled_sessions": 960,
+    "complete_sections": 480,
+    "missing_sessions": 0,
+    "missing_sections": 0,
+    "operational_violations": 0,
+    "total_hard_violations": 0,
+    "fully_feasible": true,
+    "capacity_lower_bound_missing_sessions": 0,
+    "professors_with_favorite": 60,
+    "max_sections_per_professor": 8,
+    "errors": []
+  },
+  "initial_metrics": {
+    "idle_slots": 406,
+    "idle_weekdays": 0,
+    "extra_teaching_days": 240,
+    "mixed_professor_days": 264,
+    "course_minority_sessions": 386,
+    "room_mismatches": 136,
+    "soft_cost": 3666
+  },
+  "final_metrics": {
+    "idle_slots": 152,
+    "idle_weekdays": 0,
+    "extra_teaching_days": 240,
+    "mixed_professor_days": 134,
+    "course_minority_sessions": 262,
+    "room_mismatches": 138,
+    "soft_cost": 2138
+  },
+  "fitness": 0.0004675081813931744,
+  "soft_improvement_percent": 41.6803
+}
